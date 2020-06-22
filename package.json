@@ -1,0 +1,19 @@
+{
+    "name": "rss-feed-bot",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start:watch": "tsc -w",
+        "start:dev": "nodemon ./dist"
+    },
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "rss-parser": "^3.8.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.13",
+        "nodemon": "^2.0.4",
+        "typescript": "^3.9.5"
+    }
+}
